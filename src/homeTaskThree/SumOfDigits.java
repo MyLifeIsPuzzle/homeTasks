@@ -1,9 +1,14 @@
-package homeTask3;
+package homeTaskThree;
 
 import java.util.Scanner;
 
-public class SumDigits {
+public class SumOfDigits {
+
     public static void main(String[] args) {
+        SumDigits();
+    }
+
+    private static void SumDigits() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter any integer number");
         int number = scanner.nextInt();
@@ -14,7 +19,6 @@ public class SumDigits {
             number /= 10;
             sum += lastDigit;
         }
-        System.out.println("Sum of digits = " + (sum >= 0 ? sum : sum - sum * 2));
+        System.out.println("Sum of digits = " + (sum >= 0 ? sum : (sum - sum * 2)));
     }
-
 }
