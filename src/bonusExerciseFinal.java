@@ -39,7 +39,7 @@ public class bonusExerciseFinal {
             if (map.get(i) != 0 || map.get(i) != 0)
             System.out.printf("%dx^%d+", map.get(i), i);
         }
-        if (map.size() >= 1) {
+        if (map.size() > 1) {
             System.out.printf("%dx+", map.get(1));
         }
         System.out.printf("%d", map.get(0));
