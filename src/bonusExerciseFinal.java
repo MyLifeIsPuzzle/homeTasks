@@ -5,33 +5,43 @@ import java.util.Map;
 public class bonusExerciseFinal {
 
     public static void main(String[] args) {
-        Map<Integer, Integer> someMap = new LinkedHashMap<>();
-        someMap.put(6, 3);
-        someMap.put(5, 6);
-        someMap.put(4, 0);
-        someMap.put(3, 0);
-        someMap.put(2, 2);
-        someMap.put(1, 7);
-        someMap.put(0, 4);
-        Map<Integer, Integer> someMap2 = new HashMap<>();
-        someMap2.put(6, 6);
-        someMap2.put(5, 6);
-        someMap2.put(4, 7);
-        someMap2.put(3, 0);
-        someMap2.put(2, 7);
-        someMap2.put(1, 5);
-        someMap2.put(0, 3);
-        showSum(someMap, someMap2);
+        Map<Integer, Integer> polynomialOne = new LinkedHashMap<>();
+        polynomialOne.put(6, 3);
+        polynomialOne.put(5, 6);
+        polynomialOne.put(4, 0);
+        polynomialOne.put(3, 0);
+        polynomialOne.put(2, 2);
+        polynomialOne.put(1, 7);
+        polynomialOne.put(0, 4);
+
+        Map<Integer, Integer> polynomialTwo = new HashMap<>();
+        polynomialTwo.put(6, 6);
+        polynomialTwo.put(5, 6);
+        polynomialTwo.put(4, 7);
+        polynomialTwo.put(3, 0);
+        polynomialTwo.put(2, 7);
+        polynomialTwo.put(1, 5);
+        polynomialTwo.put(0, 3);
+
+        showPolynomial(unitePolynomials(polynomialOne, polynomialTwo));
     }
 
-    private static void showSum(Map<Integer, Integer> someMap, Map<Integer, Integer> someMap2) {
-        for (int i = someMap.size() - 1; i >= 2; i--) {
-            if (someMap.get(i) != 0 || someMap2.get(i) != 0)
-            System.out.printf("%dx^%d+", someMap.get(i)+someMap2.get(i),i);
+    private static Map<Integer, Integer> unitePolynomials(Map<Integer, Integer> someMap, Map<Integer, Integer> someMap2) {
+        Map<Integer, Integer> finalPolynomial = new HashMap<>(someMap.size());
+        for (int i = someMap.size() - 1; i >= 0; i--) {
+            finalPolynomial.put(i, someMap.get(i) + someMap2.get(i));
         }
-        if (someMap.size() >= 1) {
-            System.out.printf("%dx+", someMap.get(1) + someMap2.get(1));
+        return finalPolynomial;
+    }
+
+    private static void showPolynomial(Map<Integer, Integer> map) {
+        for (int i = map.size() - 1; i >= 2; i--) {
+            if (map.get(i) != 0 || map.get(i) != 0)
+            System.out.printf("%dx^%d+", map.get(i), i);
         }
-        System.out.printf("%d", someMap.get(0)+someMap2.get(0));
+        if (map.size() >= 1) {
+            System.out.printf("%dx+", map.get(1));
+        }
+        System.out.printf("%d", map.get(0));
     }
 }
