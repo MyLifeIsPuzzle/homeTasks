@@ -1,0 +1,70 @@
+DAY STARTED
+Thread-0 DAY 99
+Thread-7 DAY 99
+Thread-4 DAY 99
+Thread-9 DAY 99
+Thread-10 DAY 99
+Thread-3 DAY 99
+Thread-2 DAY 99
+Thread-8 DAY 99
+Thread-6 DAY 99
+Thread-11 DAY 99
+Thread-5 DAY 99
+DAY ENDED
+
+DAY STARTED
+Thread-0 DAY 100
+Thread-6 DAY 100
+Thread-11 DAY 100
+Thread-5 DAY 100
+Thread-4 DAY 100
+Thread-10 DAY 100
+Thread-8 DAY 100
+Thread-3 DAY 100
+Thread-7 DAY 100
+Thread-2 DAY 100
+Thread-9 DAY 100
+DAY ENDED
+
+Time spent on harvest:
+10s
+
+Amount of robots that were built by every scientist:
+Chaos 3
+Evil 4
+Destroyer 2
+Satan 3
+Azazel 3
+Doom 4
+Hell 3
+Devil 3
+Anihilator 3
+Zlobnikus 2
+
+Remaining details of all scientists:
+Chaos {Torso=6, Left hand=9, Head=6, Right leg=2, CPU=6, HDD=2, Left leg=7, Right hand=0, RAM=4}
+Evil {Torso=0, Left hand=4, Head=5, Right leg=1, CPU=5, HDD=1, Left leg=1, Right hand=5, RAM=2}
+Destroyer {Torso=3, Left hand=3, Head=6, Right leg=1, CPU=2, HDD=6, Left leg=0, Right hand=0, RAM=0}
+Satan {Torso=4, Left hand=6, Head=1, Right leg=6, CPU=1, HDD=4, Left leg=2, Right hand=6, RAM=0}
+Azazel {Torso=0, Left hand=3, Head=5, Right leg=1, CPU=3, HDD=3, Left leg=4, Right hand=2, RAM=3}
+Doom {Torso=2, Left hand=3, Head=0, Right leg=0, CPU=2, HDD=4, Left leg=5, Right hand=4, RAM=3}
+Hell {Torso=0, Left hand=1, Head=3, Right leg=5, CPU=3, HDD=6, Left leg=3, Right hand=2, RAM=4}
+Devil {Torso=7, Left hand=2, Head=4, Right leg=0, CPU=1, HDD=1, Left leg=3, Right hand=7, RAM=4}
+Anihilator {Torso=0, Left hand=5, Head=3, Right leg=9, CPU=2, HDD=6, Left leg=3, Right hand=3, RAM=3}
+Zlobnikus {Torso=0, Left hand=1, Head=5, Right leg=4, CPU=2, HDD=0, Left leg=5, Right hand=2, RAM=4}
+
+Scientists rating:
+MadScientist{name='Evil', amountOfRobots=4, details={Torso=0, Left hand=4, Head=5, Right leg=1, CPU=5, HDD=1, Left leg=1, Right hand=5, RAM=2}}
+MadScientist{name='Doom', amountOfRobots=4, details={Torso=2, Left hand=3, Head=0, Right leg=0, CPU=2, HDD=4, Left leg=5, Right hand=4, RAM=3}}
+MadScientist{name='Chaos', amountOfRobots=3, details={Torso=6, Left hand=9, Head=6, Right leg=2, CPU=6, HDD=2, Left leg=7, Right hand=0, RAM=4}}
+MadScientist{name='Satan', amountOfRobots=3, details={Torso=4, Left hand=6, Head=1, Right leg=6, CPU=1, HDD=4, Left leg=2, Right hand=6, RAM=0}}
+MadScientist{name='Azazel', amountOfRobots=3, details={Torso=0, Left hand=3, Head=5, Right leg=1, CPU=3, HDD=3, Left leg=4, Right hand=2, RAM=3}}
+MadScientist{name='Hell', amountOfRobots=3, details={Torso=0, Left hand=1, Head=3, Right leg=5, CPU=3, HDD=6, Left leg=3, Right hand=2, RAM=4}}
+MadScientist{name='Devil', amountOfRobots=3, details={Torso=7, Left hand=2, Head=4, Right leg=0, CPU=1, HDD=1, Left leg=3, Right hand=7, RAM=4}}
+MadScientist{name='Anihilator', amountOfRobots=3, details={Torso=0, Left hand=5, Head=3, Right leg=9, CPU=2, HDD=6, Left leg=3, Right hand=3, RAM=3}}
+MadScientist{name='Destroyer', amountOfRobots=2, details={Torso=3, Left hand=3, Head=6, Right leg=1, CPU=2, HDD=6, Left leg=0, Right hand=0, RAM=0}}
+MadScientist{name='Zlobnikus', amountOfRobots=2, details={Torso=0, Left hand=1, Head=5, Right leg=4, CPU=2, HDD=0, Left leg=5, Right hand=2, RAM=4}}
+
+The winner is:
+MadScientist{name='Evil', amountOfRobots=4, details={Torso=0, Left hand=4, Head=5, Right leg=1, CPU=5, HDD=1, Left leg=1, Right hand=5, RAM=2}}
+MadScientist{name='Doom', amountOfRobots=4, details={Torso=2, Left hand=3, Head=0, Right leg=0, CPU=2, HDD=4, Left leg=5, Right hand=4, RAM=3}}

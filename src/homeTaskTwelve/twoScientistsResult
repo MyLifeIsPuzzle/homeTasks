@@ -1,0 +1,29 @@
+DAY STARTED
+Thread-0 DAY 99
+Thread-3 DAY 99
+Thread-2 DAY 99
+DAY ENDED
+
+DAY STARTED
+Thread-0 DAY 100
+Thread-2 DAY 100
+Thread-3 DAY 100
+DAY ENDED
+
+Time spent on harvest:
+10s
+
+Amount of robots that were built by every scientist:
+Chaos 5
+Zlobnikus 6
+
+Remaining details of all scientists:
+Chaos {Torso=0, Left hand=7, Head=6, Right leg=7, CPU=8, HDD=11, Left leg=16, Right hand=11, RAM=12}
+Zlobnikus {Torso=0, Left hand=7, Head=11, Right leg=9, CPU=5, HDD=11, Left leg=9, Right hand=6, RAM=14}
+
+Scientists rating:
+MadScientist{name='Zlobnikus', amountOfRobots=6, details={Torso=0, Left hand=7, Head=11, Right leg=9, CPU=5, HDD=11, Left leg=9, Right hand=6, RAM=14}}
+MadScientist{name='Chaos', amountOfRobots=5, details={Torso=0, Left hand=7, Head=6, Right leg=7, CPU=8, HDD=11, Left leg=16, Right hand=11, RAM=12}}
+
+The winner is:
+MadScientist{name='Zlobnikus', amountOfRobots=6, details={Torso=0, Left hand=7, Head=11, Right leg=9, CPU=5, HDD=11, Left leg=9, Right hand=6, RAM=14}}

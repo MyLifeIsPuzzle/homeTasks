@@ -1,0 +1,18 @@
+Time spent on harvest:
+10s
+
+Amount of robots that were built by every scientist:
+Chaos 4
+Zlobnikus 4
+
+Remaining details of all scientists:
+Chaos {Torso=14, Left hand=1, Head=3, Right leg=3, CPU=6, HDD=0, Left leg=2, Right hand=4, RAM=1}
+Zlobnikus {Torso=3, Left hand=2, Head=5, Right leg=3, CPU=4, HDD=0, Left leg=1, Right hand=2, RAM=4}
+
+Scientists rating:
+MadScientist{details = {Torso=14, Left hand=1, Head=3, Right leg=3, CPU=6, HDD=0, Left leg=2, Right hand=4, RAM=1}, AmountOfRobots = 4, name = 'Chaos'}
+MadScientist{details = {Torso=3, Left hand=2, Head=5, Right leg=3, CPU=4, HDD=0, Left leg=1, Right hand=2, RAM=4}, AmountOfRobots = 4, name = 'Zlobnikus'}
+
+The winner is:
+MadScientist{details = {Torso=14, Left hand=1, Head=3, Right leg=3, CPU=6, HDD=0, Left leg=2, Right hand=4, RAM=1}, AmountOfRobots = 4, name = 'Chaos'}
+MadScientist{details = {Torso=3, Left hand=2, Head=5, Right leg=3, CPU=4, HDD=0, Left leg=1, Right hand=2, RAM=4}, AmountOfRobots = 4, name = 'Zlobnikus'}
