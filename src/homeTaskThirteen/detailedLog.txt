@@ -1,0 +1,48 @@
+Lectures 825 minutes:
+Введение: 100 minutes 12%
+Скаляры: 55 minutes 7%
+Массивы: 60 minutes 7%
+Углубленное изучение массивов: 60 minutes 7%
+Операторы: 35 minutes 4%
+Методы: 60 minutes 7%
+Регулярные выражения: 60 minutes 7%
+Потоки: 65 minutes 8%
+Исключения: 60 minutes 7%
+Принципы построения ПО: 50 minutes 6%
+Базы данных: 25 minutes 3%
+HTML: 40 minutes 5%
+CSS: 70 minutes 8%
+Java Script: 55 minutes 7%
+Заключение: 30 minutes 4%
+
+Activities:
+03.03.2018 490 minutes:
+Перерывы: 90 minutes 18%
+Решения: 50 minutes 10%
+Упражнения: 135 minutes 28%
+Лекции: 215 minutes 44%
+
+05.03.2018 470 minutes:
+Перерывы: 90 minutes 19%
+Решения: 50 minutes 11%
+Упражнения: 175 minutes 37%
+Лекции: 155 minutes 33%
+
+07.03.2018 500 minutes:
+Перерывы: 80 minutes 16%
+Решения: 80 minutes 16%
+Упражнения: 155 minutes 31%
+Лекции: 185 minutes 37%
+
+08.03.2018 500 minutes:
+Перерывы: 100 minutes 20%
+Решения: 70 minutes 14%
+Упражнения: 215 minutes 43%
+Лекции: 115 minutes 23%
+
+10.03.2018 440 minutes:
+Перерывы: 75 minutes 17%
+Решения: 80 minutes 18%
+Упражнения: 130 minutes 30%
+Лекции: 155 minutes 35%
+
